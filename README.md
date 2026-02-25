@@ -33,6 +33,7 @@ O foco é:
 git clone https://github.com/seu-usuario/monitor_precos.git
 cd monitor_precos
 ```
+---
 
 ⚡ Criar e ativar ambiente virtual
 ```bash
@@ -40,18 +41,18 @@ python -m venv venv
 venv\Scripts\activate    # Windows
 # source venv/bin/activate  # Linux/macOS
 ```
-
+---
 📦 Instalar dependências
 ```bash
 pip install -r requirements.txt
 ```
-
+---
 ▶️ Executar o sistema
 ```bash
 python app/main.py
 ```
-
-📝 Licença
+---
+📝 Licença  
 Este projeto está licenciado sob a **[MIT]([https://opensource.org/licenses/MIT](https://github.com/Mateuswb/Monitor-precos/blob/main/LICENSE))**.
 
 
