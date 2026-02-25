@@ -30,22 +30,22 @@ O foco é:
 
 ## 🛠 Como usar / Setup
 
-### 1️⃣ Clonar o repositório
-```bash
-git clone https://github.com/seu-usuario/monitor_precos.gi
+### 🚀 Setup e Execução
 
 ```bash
+# Clonar o repositório
+git clone https://github.com/seu-usuario/monitor_precos.git
 cd monitor_precos
 
+# Criar e ativar ambiente virtual
 python -m venv venv
-
 venv\Scripts\activate    # Windows
 # source venv/bin/activate  # Linux/macOS
 
+# Instalar dependências
 pip install -r requirements.txt
 
+# Executar o sistema
 python -m app.main
 # ou
 python app/main.py
-
-Este projeto está licenciado sob a MIT License
