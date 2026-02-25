@@ -1,8 +1,5 @@
 # 🛒 Monitor de Preços — Automação de Produtos
 
-Python  
-License: [MIT](https://opensource.org/licenses/MIT)
-
 Um sistema em Python que automatiza a pesquisa e acompanhamento de produtos em sites de e-commerce como o Mercado Livre. Ideal para monitorar preços, comparar produtos e manter histórico sem esforço manual.
 
 ---
@@ -30,22 +27,31 @@ O foco é:
 
 ## 🛠 Como usar / Setup
 
-### 🚀 Setup e Execução
 
+### 🚀 Clonar o repositório
 ```bash
-# Clonar o repositório
 git clone https://github.com/seu-usuario/monitor_precos.git
 cd monitor_precos
+```
 
-# Criar e ativar ambiente virtual
+⚡ Criar e ativar ambiente virtual
+```bash
 python -m venv venv
 venv\Scripts\activate    # Windows
 # source venv/bin/activate  # Linux/macOS
+```
 
-# Instalar dependências
+📦 Instalar dependências
+```bash
 pip install -r requirements.txt
+```
 
-# Executar o sistema
-python -m app.main
-# ou
+▶️ Executar o sistema
+```bash
 python app/main.py
+```
+
+📝 Licença
+Este projeto está licenciado sob a **[MIT]([https://opensource.org/licenses/MIT](https://github.com/Mateuswb/Monitor-precos/blob/main/LICENSE))**.
+
+
